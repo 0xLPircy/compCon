@@ -1,0 +1,133 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+body {
+    background: #212121;
+    color: #d5d5d5;
+}
+
+a {
+    text-decoration: none;
+    color: #f3f3f3;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.container .showcase {
+    background: url('img/bg.jpg') no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.showcaseContent {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #a6a6a6;
+}
+
+.name {
+    color: #adabab;
+    margin-bottom: 20px;
+    font-size: 90px;
+    letter-spacing: 10px;
+}
+
+.existingCompetition {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.showcase input {
+    margin-top: 10px;
+    width: 50%;
+    height: 30px;
+    border-radius: 6px;
+    border: solid #787878 1px;
+    background-color: rgba(0, 0, 0, 0.48);
+    color: #f3f3f3;
+}
+
+.showcase input:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    cursor: pointer;
+}
+
+.newLink {
+    color: #f3f3f3;
+}
+
+#createNew {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+form {
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+form h1 {
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+form div {
+    text-align: left;
+    margin-bottom: 21px;
+}
+
+form div label {
+    font-size: 18px;
+}
+
+form div input {
+    text-align: left;
+    padding-left: 6px;
+    margin-top: 10px;
+    position: relative;
+    display: block;
+    width: 70%;
+    height: 27px;
+    background-color: #6e6e6e;
+    border-radius: 3px;
+    border: solid #f3f3f3 1px;
+}
+
+.btn-submit {
+    align-content: center;
+    width: 50%;
+    height: 45px;
+    font-size: 15px;
+    background: #000000;
+    color: #f3f3f3;
+    border: solid #222121 1px;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: #6e6e6e;
+}
+
+
+/* 
+img {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100%;
+} */
